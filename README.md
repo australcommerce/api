@@ -40,17 +40,6 @@ _{ Message: "The requested resource does not support http method 'POST'." }_
 
 Es su responsabilidad en todos estos casos para reintentar la solicitud posterior.
 
-## Tipo de Limitaciones
-Usted puede realizar hasta 500 solicitudes por 5 minutos desde la app. Si usted excede este límite, obtendrá la siguiente error 429 Too Many Requests respuesta por posteriores solicitudes. Nosotros usamos los siguientes headers para proveer información:
-
-• X-Rate-Limit-Limit : Total requests that con be done in a given period.
-
-• X-Rate-Limit-Remaining : Remaining requests in the current period.
-
-• X-Rate-Limit-Reset : Remaining seconds for the start of the next period.
-
-## Paginación
-
 ## Metodos HTTP
 
 Donde sea posible, la API vi se esfuerza para usar apropiadamente HTTP verbs para cada acción:
