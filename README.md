@@ -296,3 +296,8 @@ GET /v1/product/{codigo_del_producto}
   [0]
 }
 ```
+
+## Ayudanos para hacer lo mejor
+Por favor háganos saber cómo podemos mejorar la API. Si usted tiene una pregunta específica sobre una solicitud o si usted encontró un error, siéntase libre de expresarlo.
+
+Se puede comunicar al siguiente email api@australcommerce.com.ar.
