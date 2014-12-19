@@ -1,11 +1,11 @@
 La API de Austral Commerce
 ==========================
 
-Esta es la versión 1 (V1) una API REST que usa una autenticación básica y devuelve datos en formato JSON. A medida que vayamos haciendo cambios va a ir cambiando la versión.
+Esta es la versión 1 (V1) una API REST que usa una autenticación básica y devuelve datos en formato JSON. A medida que vayamos haciendo cambios va a ir siendo modificada la versión.
 
 ## Hacer una solicitud
 Todas las URLs comienzan con http://api.australcommerce.com.ar/v1/
-Para hacer una solicitud y obtener datos usted tendría que hacer lo siguiente en curl:
+Para hacer una solicitud y obtener datos tendrías que hacer lo siguiente en curl:
 ```
 curl -H 'authentication: ACCESS_TOKEN ' /
   https://api.australcommerce.com.ar/v1/order/000001
@@ -40,7 +40,7 @@ _{ Message: "The requested resource does not support http method 'POST'." }_
 
 504 Gateway Timeout. 
 
-Es su responsabilidad en todos estos casos para reintentar la solicitud posterior.
+Es tu responsabilidad en todos estos casos reintentar una solicitud posterior.
 
 ## Metodos HTTP
 
@@ -60,11 +60,11 @@ Authentication: [instancia]:[token]
 
 Cache-Control: no-cache
 
-Para utilizar la demo podes utilizar la siguiente autenticaión:
+Para utilizar la demo podes usar la siguiente autenticación:
 
 Authentication: Demo-AustralCommerce:82a3bcb7fa23577d28d8422df13ac7470a734475a75bc8d28e16c9c1226d36b3
 
-Para PRODUCCION, tienen que pedir los datos a la mesa de ayuda en hola@australcommerce.com.ar
+Para **Producción**, tenes que pedir los datos a la mesa de ayuda en hola@australcommerce.com.ar
 
 ### Cliente
 #### Recuperar un Cliente
@@ -277,7 +277,7 @@ GET /v1/product/{codigo_del_producto}
 }
 ```
 
-## Ayudanos para hacer lo mejor
-Por favor hacenos saber cómo podemos mejorar la API. Si usted tiene una pregunta específica sobre una solicitud o si usted encontró un error, sentite libre de expresarlo.
+## Ayudanos para hacerlo mejor
+Por favor hacenos saber cómo podemos mejorar la API. Si tenes una pregunta específica sobre una solicitud o si encontraste un error, sentite libre de expresarlo.
 
 Comunicate al siguiente email hola@australcommerce.com.ar
