@@ -104,7 +104,7 @@ GET /v1/customer/{nombre_del_cliente}
 Recuperar datos de un Orden (pedido, cotización o compra directa), por su “número”.
 
 #### Método
-GET /v1/order/{numero_de_roden}
+GET /v1/order/{numero_de_orden}
  
 #### Resultado
 ```
