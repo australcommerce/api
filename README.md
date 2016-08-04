@@ -1,7 +1,7 @@
 La API de Austral Commerce
 ==========================
 
-Esta es la versión 1 (V1) una API REST que usa una autenticación básica y devuelve datos en formato JSON. A medida que vayamos haciendo cambios va a ir siendo modificada la versión.
+La versión 1 (V1) nuestra API REST,que usa una autenticación por header y devuelve datos en formato JSON. A medida que vayamos haciendo cambios o agreguemos funcionalidades, actualizaremos la versión solo si el cambio es disruptivo.
 
 ## Hacer una solicitud
 Todas las URLs comienzan con http://api.australcommerce.com.ar/v1/
@@ -240,6 +240,7 @@ GET /v1/product/{codigo_del_producto}
 	"IsNew":false,
 	"IsSale":false,
 	"IsBold":false,
+	"IsUnavailable": false,
 	"Brand":
 	{
 		"Name":"Marca 25",
