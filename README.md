@@ -281,4 +281,4 @@ GET /v1/product/{codigo_del_producto}
 ## Ayudanos para hacerlo mejor
 Por favor hacenos saber cómo podemos mejorar la API. Si tenes una pregunta específica sobre una solicitud o si encontraste un error, avisanos.
 
-Escribinos a hola@sucursalweb.io o en Twitter a [@sucursalwebio](https://twitter.com/sucursalwebio)
+Carga un [Issue acá en Github](https://github.com/australcommerce/api/issues), o escribinos a hola@sucursalweb.io.En Twitter somos [@sucursalwebio](https://twitter.com/sucursalwebio)
