@@ -279,6 +279,6 @@ GET /v1/product/{codigo_del_producto}
 ```
 
 ## Ayudanos para hacerlo mejor
-Por favor hacenos saber cómo podemos mejorar la API. Si tenes una pregunta específica sobre una solicitud o si encontraste un error, sentite libre de expresarlo.
+Por favor hacenos saber cómo podemos mejorar la API. Si tenes una pregunta específica sobre una solicitud o si encontraste un error, avisanos.
 
-Comunicate al siguiente email hola@australcommerce.com.ar
+Escribinos a hola@sucursalweb.io o en Twitter a [@sucursalwebio](https://twitter.com/sucursalwebio)
