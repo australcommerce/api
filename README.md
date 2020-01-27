@@ -1,16 +1,16 @@
 ## Nos mudamos: https://github.com/sucursalweb/api-docs
 
-La API de Austral Commerce
-==========================
+La API de Sucursal Web
+======================
 
 La versión 1 (V1) de nuestra API REST, que usa una autenticación por header y devuelve datos en formato JSON. A medida que vayamos haciendo cambios o agreguemos funcionalidades, actualizaremos la versión solo si el cambio es disruptivo.
 
 ## Hacer una solicitud
-Todas las URLs comienzan con http://api.australcommerce.com.ar/v1/
+Todas las URLs comienzan con https://api.sucursalweb.io/v1/
 Para hacer una solicitud y obtener datos tendrías que hacer lo siguiente en curl:
 ```
 curl -H 'authentication: ACCESS_TOKEN ' /
-  https://api.australcommerce.com.ar/v1/order/000001
+  ttps://api.sucursalweb.io/v1/order/000001
 ```
 donde el  ACCESS_TOKEN en el token para tener acceso a la API.
 
@@ -50,7 +50,7 @@ Donde sea posible, la API vi se esfuerza para usar apropiadamente HTTP verbs par
 * HEAD :  Puede ser emitida en contra de cualquier recurso para obtener sólo la información de la cabecera HTTP.
 * GET : Usado para recuperar recursos.
 * POST : Usado para crear recursos.
-* PUT : Se utiliza para la sustitución de recursos o colecciones. Para peticiones PUT sin atributo, asegúrete de configurar el encabezado Content-Length a cero.
+* PUT : Se utiliza para la sustitución de recursos o colecciones. Para peticiones PUT sin atributo, asegúrate de configurar el encabezado Content-Length a cero.
 * DELETE : Usado para eliminar recursos.
 
 ## Recursos de la API
@@ -283,4 +283,4 @@ GET /v1/product/{codigo_del_producto}
 ## Ayudanos para hacerlo mejor
 Por favor hacenos saber cómo podemos mejorar la API. Si tenes una pregunta específica sobre una solicitud o si encontraste un error, avisanos.
 
-Carga un [Issue acá en Github](https://github.com/australcommerce/api/issues), o escribinos a hola@sucursalweb.io. En Twitter somos [@sucursalwebio](https://twitter.com/sucursalwebio)
+Carga un [Issue acá en Github](https://github.com/sucursalweb/api/issues), o escribinos a hola@sucursalweb.io. En Twitter somos [@sucursalwebio](https://twitter.com/sucursalwebio)
